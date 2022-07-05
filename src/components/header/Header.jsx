@@ -2,8 +2,9 @@ import React from 'react'
 import './header.css'
 import CTA from './CTA'
 import ME from '../../assets/me.png'
+import HeaderSocials from './HeaderSocials'
 
-function Header() {
+function header() {
   return (
     <header>
       <div className="container header_container">
@@ -11,6 +12,7 @@ function Header() {
          <h1>Merve Bilgin</h1>
          <h5 className='text-light'>Fullstack Developer</h5>
          <CTA/>
+         <HeaderSocials/>
 
          <div className="me">
           <img src={ME} alt='me'/>
@@ -22,4 +24,4 @@ function Header() {
   )
 }
 
-export default Header
+export default header
