@@ -87,7 +87,7 @@
     }
 }
 
-  /* *******  Snall Devices  ********** */
+  /* *******  Small Devices  ********** */
 @media screen and (max-width: 600px) {
     .about_me {
         width: 65%;
