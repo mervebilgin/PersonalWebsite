@@ -31,3 +31,20 @@
     gap: 1rem;
     margin-bottom: 1rem;
 }
+
+
+  /* *******  Medium Devices  ********** */
+@media screen and (max-width: 1024px) {
+   .portfolio_container {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
+   }
+}
+
+  /* *******  Small Devices  ********** */
+@media screen and (max-width: 600px) {
+    .portfolio_container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}
