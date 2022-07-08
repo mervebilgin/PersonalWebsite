@@ -3,8 +3,21 @@ import './contact.css'
 import {MdOutlineEmail} from 'react-icons/md'
 import {BsInstagram} from 'react-icons/bs'
 import {RiTwitterLine} from 'react-icons/ri'
+import { useRef } from 'react';
+import emailjs from 'emailjs-com'
 
 function Contact() {
+
+  const form = useRef();
+  
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_10anppo', 'template_1py2qnz', form.current, 'INQkgUvhEnFq_9h-y')
+    
+    e.target.reset()
+  };
+
   return (
     <section id='contact'>
       <h5>Get In Touch</h5>
@@ -34,7 +47,7 @@ function Contact() {
           </article>
         </div>
         {/* END OF CONTACT OPTIONS */}
-        <form action=''>
+        <form ref={form} onSubmit={sendEmail}>
           <input type="text" name='name' placeholder='Your Full Name' required/>
           <input type="email" name='email' placeholder='Your Email' required/>
           <textarea name='message' rows='7' placeholder='Your Message' required></textarea>
