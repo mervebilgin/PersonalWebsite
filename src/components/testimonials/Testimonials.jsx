@@ -5,6 +5,29 @@ import AVTR2 from '../../assets/avatar2.jpg'
 import AVTR3 from '../../assets/avatar3.jpg'
 import AVTR4 from '../../assets/avatar4.jpg'
 
+const data = [
+  {
+    avatar: AVTR1,
+    name: 'Tina Snow',
+    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus voluptates libero, nam reprehenderit quae quasi modi culpa ratione aliquid tempora sapiente enim corporis quis? Exercitationem suscipit expedita reiciendis nemo tempore.'
+  },
+  {
+    avatar: AVTR2,
+    name: 'Shatta Wale',
+    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus voluptates libero, nam reprehenderit quae quasi modi culpa ratione aliquid tempora sapiente enim corporis quis? Exercitationem suscipit expedita reiciendis nemo tempore.'
+  },
+  {
+    avatar: AVTR3,
+    name: 'Kwanna Despite',
+    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus voluptates libero, nam reprehenderit quae quasi modi culpa ratione aliquid tempora sapiente enim corporis quis? Exercitationem suscipit expedita reiciendis nemo tempore.'
+  },
+  {
+    avatar: AVTR4,
+    name: 'Nana Ama McBrown',
+    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus voluptates libero, nam reprehenderit quae quasi modi culpa ratione aliquid tempora sapiente enim corporis quis? Exercitationem suscipit expedita reiciendis nemo tempore.'
+  }
+]
+
 function Testimonials() {
   return (
     <section id='testimonials'>
@@ -12,53 +35,20 @@ function Testimonials() {
       <h2>Testimonials</h2>
 
       <div className='container testimonials_container'>
-        <article className='testimonial'>
-          <div className='client_avatar'>
-            <img src={AVTR1} alt='' />
-          </div>
-          <h5 className='client_name'>Ernest Achiever</h5>
-          <small className='client_review'>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, quo 
-            neque iste esse totam nemo dignissimos? Minima tempore adipisci veritatis, 
-            suscipit eum facilis voluptate nesciunt repellendus consequuntur odit sit nihil.
-          </small>
-        </article>
+        {
+          data.map(({avatar, name, review}, index) => {
+            return (
+              <article className='testimonial'>
+                <div className='client_avatar'>
+                  <img src={avatar} alt='' />
+                </div>
+                <h5 className='client_name'>name</h5>
+                <small className='client_review'>{review}</small>
+              </article>
+            )
+          })
+        }
 
-        <article className='testimonial'>
-          <div className='client_avatar'>
-            <img src={AVTR2} alt='' />
-          </div>
-          <h5 className='client_name'>Ernest Achiever</h5>
-          <small className='client_review'>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, quo 
-            neque iste esse totam nemo dignissimos? Minima tempore adipisci veritatis, 
-            suscipit eum facilis voluptate nesciunt repellendus consequuntur odit sit nihil.
-          </small>
-        </article>
-
-        <article className='testimonial'>
-          <div className='client_avatar'>
-            <img src={AVTR3} alt='' />
-          </div>
-          <h5 className='client_name'>Ernest Achiever</h5>
-          <small className='client_review'>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, quo 
-            neque iste esse totam nemo dignissimos? Minima tempore adipisci veritatis, 
-            suscipit eum facilis voluptate nesciunt repellendus consequuntur odit sit nihil.
-          </small>
-        </article>
-
-        <article className='testimonial'>
-          <div className='client_avatar'>
-            <img src={AVTR4} alt='' />
-          </div>
-          <h5 className='client_name'>Ernest Achiever</h5>
-          <small className='client_review'>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, quo 
-            neque iste esse totam nemo dignissimos? Minima tempore adipisci veritatis, 
-            suscipit eum facilis voluptate nesciunt repellendus consequuntur odit sit nihil.
-          </small>
-        </article>
 
 
       </div>
