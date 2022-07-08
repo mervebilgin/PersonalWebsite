@@ -15,50 +15,52 @@ function Testimonials() {
         <article className='testimonial'>
           <div className='client_avatar'>
             <img src={AVTR1} alt='' />
-            <h5 className='client_name'>Ernest Achiever</h5>
-            <small className='client_review'>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, quo 
-              neque iste esse totam nemo dignissimos? Minima tempore adipisci veritatis, 
-              suscipit eum facilis voluptate nesciunt repellendus consequuntur odit sit nihil.
-            </small>
           </div>
+          <h5 className='client_name'>Ernest Achiever</h5>
+          <small className='client_review'>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, quo 
+            neque iste esse totam nemo dignissimos? Minima tempore adipisci veritatis, 
+            suscipit eum facilis voluptate nesciunt repellendus consequuntur odit sit nihil.
+          </small>
         </article>
 
         <article className='testimonial'>
           <div className='client_avatar'>
             <img src={AVTR2} alt='' />
-            <h5 className='client_name'>Ernest Achiever</h5>
-            <small className='client_review'>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, quo 
-              neque iste esse totam nemo dignissimos? Minima tempore adipisci veritatis, 
-              suscipit eum facilis voluptate nesciunt repellendus consequuntur odit sit nihil.
-            </small>
           </div>
+          <h5 className='client_name'>Ernest Achiever</h5>
+          <small className='client_review'>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, quo 
+            neque iste esse totam nemo dignissimos? Minima tempore adipisci veritatis, 
+            suscipit eum facilis voluptate nesciunt repellendus consequuntur odit sit nihil.
+          </small>
         </article>
 
         <article className='testimonial'>
           <div className='client_avatar'>
             <img src={AVTR3} alt='' />
-            <h5 className='client_name'>Ernest Achiever</h5>
-            <small className='client_review'>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, quo 
-              neque iste esse totam nemo dignissimos? Minima tempore adipisci veritatis, 
-              suscipit eum facilis voluptate nesciunt repellendus consequuntur odit sit nihil.
-            </small>
           </div>
+          <h5 className='client_name'>Ernest Achiever</h5>
+          <small className='client_review'>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, quo 
+            neque iste esse totam nemo dignissimos? Minima tempore adipisci veritatis, 
+            suscipit eum facilis voluptate nesciunt repellendus consequuntur odit sit nihil.
+          </small>
         </article>
 
         <article className='testimonial'>
           <div className='client_avatar'>
             <img src={AVTR4} alt='' />
-            <h5 className='client_name'>Ernest Achiever</h5>
-            <small className='client_review'>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, quo 
-              neque iste esse totam nemo dignissimos? Minima tempore adipisci veritatis, 
-              suscipit eum facilis voluptate nesciunt repellendus consequuntur odit sit nihil.
-            </small>
           </div>
+          <h5 className='client_name'>Ernest Achiever</h5>
+          <small className='client_review'>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, quo 
+            neque iste esse totam nemo dignissimos? Minima tempore adipisci veritatis, 
+            suscipit eum facilis voluptate nesciunt repellendus consequuntur odit sit nihil.
+          </small>
         </article>
+
+
       </div>
 
 
