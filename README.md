@@ -66,3 +66,7 @@ Send emails, html and attachments (files, streams and strings) from node.js to a
 _npm install emailjs_
 
 
+
+
+https://user-images.githubusercontent.com/47225405/178116969-96e6da50-f9e1-454d-9a1e-079bb4e5978a.mp4
+
