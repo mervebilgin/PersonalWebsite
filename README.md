@@ -1,7 +1,11 @@
 # PersonalWebsite
+### [Live Demo &#128072;](https://mervebilgin.vercel.app/)
 - In this project, a personal portfolio site that is sensitive to responsive design was created with [React](https://reactjs.org/). 
 - [React icons library](https://react-icons.github.io/react-icons/), React useState hooks are used in the project. 
 - Also used [SwiperJS](https://swiperjs.com/) (to create carousels/slides) and [EmailJS](https://www.emailjs.com/).
+<br><br>
+
+https://user-images.githubusercontent.com/47225405/178116969-96e6da50-f9e1-454d-9a1e-079bb4e5978a.mp4
 
 ## React
 ### Getting Started with Create React App
@@ -65,8 +69,4 @@ Send emails, html and attachments (files, streams and strings) from node.js to a
 ### Installing 
 _npm install emailjs_
 
-
-
-
-https://user-images.githubusercontent.com/47225405/178116969-96e6da50-f9e1-454d-9a1e-079bb4e5978a.mp4
 
